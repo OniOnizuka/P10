@@ -7,7 +7,7 @@
 
 
 import XCTest
-@testable import Reciplease
+@testable import RecipleaseP10
  import CoreData
 
 // Tests for coredata
