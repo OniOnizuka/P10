@@ -6,7 +6,7 @@
 // Copyright © 2020 Alexandre NYS. All rights reserved.
 
 import XCTest
-@testable import Reciplease
+@testable import RecipleaseP10
 import CoreData
 
 // A class that inherits from CoreDataStack that will serve within our tests
