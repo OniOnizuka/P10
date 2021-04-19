@@ -64,11 +64,6 @@ class AddIngredientsViewController: UIViewController {
     // MARK: - Methods
     func getRecipes() throws {
         toggleActivityIndicator(shown: true)
-        // Checking that the user is connected to internet
-        guard InternetConnectionVerifiyer.isConnectedToNetwork() else {
-            toggleActivityIndicator(shown: false)
-            throw ApiError.noInternet
-        }
         // Using the recipe service to make our api call
         recipeService.getRecipes(ingredients: ingredients) { result in
             DispatchQueue.main.async { [weak self] in

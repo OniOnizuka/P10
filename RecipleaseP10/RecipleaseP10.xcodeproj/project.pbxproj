@@ -39,7 +39,6 @@
 		C8C4D72D262A123900916883 /* RecipeDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C4D72B262A123900916883 /* RecipeDetailView.xib */; };
 		C8C4D72E262A123900916883 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C4D72C262A123900916883 /* RecipeTableViewCell.xib */; };
 		C8C4D733262A125500916883 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D732262A125500916883 /* NibView.swift */; };
-		C8C4D738262A126500916883 /* InternetConnectionVerifiyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D737262A126500916883 /* InternetConnectionVerifiyer.swift */; };
 		C8C4D749262A170700916883 /* AlamoSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D742262A170600916883 /* AlamoSessionFake.swift */; };
 		C8C4D74A262A170700916883 /* FakeResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D743262A170700916883 /* FakeResponseData.swift */; };
 		C8C4D74B262A170700916883 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D744262A170700916883 /* TestCoreDataStack.swift */; };
@@ -111,7 +110,6 @@
 		C8C4D72B262A123900916883 /* RecipeDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeDetailView.xib; sourceTree = "<group>"; };
 		C8C4D72C262A123900916883 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
 		C8C4D732262A125500916883 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
-		C8C4D737262A126500916883 /* InternetConnectionVerifiyer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionVerifiyer.swift; sourceTree = "<group>"; };
 		C8C4D742262A170600916883 /* AlamoSessionFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoSessionFake.swift; sourceTree = "<group>"; };
 		C8C4D743262A170700916883 /* FakeResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeResponseData.swift; sourceTree = "<group>"; };
 		C8C4D744262A170700916883 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCoreDataStack.swift; sourceTree = "<group>"; };
@@ -239,7 +237,6 @@
 				C8C4D732262A125500916883 /* NibView.swift */,
 				C8C4D602262887F800916883 /* AppDelegate.swift */,
 				C8C4D604262887F800916883 /* SceneDelegate.swift */,
-				C8C4D737262A126500916883 /* InternetConnectionVerifiyer.swift */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -581,7 +578,6 @@
 				C8C4D6F0262A0ED700916883 /* RecipeSearchResult.swift in Sources */,
 				C8C4D6F1262A0ED700916883 /* RecipeModel.swift in Sources */,
 				C8C4D713262A116600916883 /* RecipeListViewController.swift in Sources */,
-				C8C4D738262A126500916883 /* InternetConnectionVerifiyer.swift in Sources */,
 				C8C4D6DE262A0DC500916883 /* ApiError.swift in Sources */,
 				C8C4D6E7262A0DF300916883 /* SessionProtocol.swift in Sources */,
 				C8C4D71F262A11BA00916883 /* Extension+UIImageView.swift in Sources */,

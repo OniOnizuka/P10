@@ -11,7 +11,7 @@ enum ApiError: Error {
     
     case noData
     case badRequest
-    case noInternet
+   
     
     var errorDescription: String {
         return "Oups !"
@@ -22,8 +22,6 @@ enum ApiError: Error {
             return "These data can't be retrieved at the moment."
         case .badRequest:
             return "The request has failed."
-        case .noInternet:
-            return "Service unavailable at the moment, it seems your are not connected to the internet."
         }
     }
 }

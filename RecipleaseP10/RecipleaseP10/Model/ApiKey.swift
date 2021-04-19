@@ -13,4 +13,3 @@ struct ApiKey {
     static let id = "619dd37f"
     static let key = "1b3ff67768e59516e64c3afb873b88d3"
 }
-

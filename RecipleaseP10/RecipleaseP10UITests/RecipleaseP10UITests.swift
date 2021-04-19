@@ -58,7 +58,7 @@ class RecipleaseUITests: XCTestCase {
     
     func testingClearButton() {
        
-        app.textFields["Lemon, cheese, sausages"].tap()
+        app.textFields["Lemon, cheese, sasages"].tap()
         
         app/*@START_MENU_TOKEN@*/.keys["b"]/*[[".keyboards.keys[\"b\"]",".keys[\"b\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         
@@ -158,14 +158,5 @@ class RecipleaseUITests: XCTestCase {
         let ingredientCell = app.tables.cells
         
         XCTAssertNotNil(ingredientCell)
-    }
-
-    func testLaunchPerformance() {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
-                XCUIApplication().launch()
-            }
-        }
     }
 }
