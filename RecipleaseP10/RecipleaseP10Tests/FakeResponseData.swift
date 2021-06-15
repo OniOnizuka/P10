@@ -1,9 +1,9 @@
 //
 //  FakeResponseData.swift
-//  RecipleaseTests
+//  RecipleaseP10Tests
 //
-//  Created by Marwen Haouacine on 16/11/2020.
-//  Copyright © 2020 marwen. All rights reserved.
+//  Created by Alexandre NYS on 15/04/2021.
+// Copyright © 2020 Alexandre NYS. All rights reserved.
 //
 
 import Foundation

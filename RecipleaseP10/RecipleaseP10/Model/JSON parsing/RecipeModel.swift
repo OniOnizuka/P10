@@ -9,12 +9,12 @@ import Foundation
 
 //// An object to manipulate easily a recipe throughout the code
 //
-//struct RecipeModel {
-//    let name: String
-//    let image: String
-//    let url: String
-//    let ingredients: [String]
-//    let yield: Int
-//    let time: Int
-//    var isFavorite = false
-//}
+struct RecipeModel {
+    let name: String
+    let image: String
+    let url: String
+    let ingredients: [String]
+    let yield: Int
+    let time: Int
+    var isFavorite = false
+}

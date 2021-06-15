@@ -45,7 +45,6 @@
 		C8C4D74C262A170700916883 /* RecipeServiceTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D746262A170700916883 /* RecipeServiceTestCase.swift */; };
 		C8C4D74D262A170700916883 /* CoreDataStoreTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D747262A170700916883 /* CoreDataStoreTestCase.swift */; };
 		C8C4D74E262A170700916883 /* edamam.json in Resources */ = {isa = PBXBuildFile; fileRef = C8C4D748262A170700916883 /* edamam.json */; };
-		C8C4D76A262EFF7400916883 /* ServiceURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C4D769262EFF7400916883 /* ServiceURL.swift */; };
 		EFC0CA21C9540C6025C1913E /* Pods_RecipleaseP10Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0E269E3A737064DD4834EF /* Pods_RecipleaseP10Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -118,7 +117,6 @@
 		C8C4D746262A170700916883 /* RecipeServiceTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeServiceTestCase.swift; sourceTree = "<group>"; };
 		C8C4D747262A170700916883 /* CoreDataStoreTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStoreTestCase.swift; sourceTree = "<group>"; };
 		C8C4D748262A170700916883 /* edamam.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = edamam.json; sourceTree = "<group>"; };
-		C8C4D769262EFF7400916883 /* ServiceURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceURL.swift; sourceTree = "<group>"; };
 		FFCDF88CF8DA40841C39C4B8 /* Pods-RecipleaseP10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipleaseP10.debug.xcconfig"; path = "Target Support Files/Pods-RecipleaseP10/Pods-RecipleaseP10.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -304,7 +302,6 @@
 			children = (
 				C8C4D6E5262A0DF300916883 /* AlamoClient.swift */,
 				C8C4D6E6262A0DF300916883 /* RecipeService.swift */,
-				C8C4D769262EFF7400916883 /* ServiceURL.swift */,
 				C8C4D6E4262A0DF300916883 /* SessionProtocol.swift */,
 			);
 			path = Service;
@@ -591,7 +588,6 @@
 				C8C4D6E8262A0DF300916883 /* AlamoClient.swift in Sources */,
 				C8C4D6B22629E19900916883 /* FavoriteRecipe.swift in Sources */,
 				C8C4D6E9262A0DF300916883 /* RecipeService.swift in Sources */,
-				C8C4D76A262EFF7400916883 /* ServiceURL.swift in Sources */,
 				C8C4D6B42629E19900916883 /* CoreDataStack.swift in Sources */,
 				C8C4D6B32629E19900916883 /* FavoriteRecipeStorage.swift in Sources */,
 				C8C4D725262A120000916883 /* RecipeTableViewCell.swift in Sources */,
